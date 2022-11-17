@@ -1,7 +1,7 @@
 import { Router } from "express";
 
 const router = Router();
-const USERNAME = "cecilio";
+const USERNAME = process.env.USER_NAME || "cecilio";
 
 const auth = (req, res, next) => {
   const { isAuth } = req.session;
