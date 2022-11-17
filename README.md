@@ -2,8 +2,9 @@ Proyecto desafio login formulario curso coder house
 
 ## Configuración inicial
 
-Previo a la ejecución del proyecto se debe crear en el directorio raiz del mismo un archivo `.env` con 3 variables 
+Previo a la ejecución del proyecto se debe crear en el directorio raiz del mismo un archivo `.env` con 4 variables 
 ```
+PORT=8080
 USER_NAME=nombreUsuario
 NODE_ENV=local
 NODE_URL="http://localhost:8080/"
