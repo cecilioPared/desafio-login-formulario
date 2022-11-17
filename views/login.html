@@ -1,0 +1,18 @@
+<dialog open>
+<article>
+  <header>Login de Usuario</header>
+{{#if isError}}
+  <p style="color:red">{{mensaje}}</p>
+{{/if}}
+{{#if isOk}}
+  <p style="color:green">{{mensaje}}</p>
+{{/if}}
+<form action="/login" method="POST">
+
+  <input name="username" id="username" type="text" placeholder="ingrese su nombre..." required />
+  <button type="submit">Enviar</button>  
+
+</form>
+
+</article>
+</dialog>
